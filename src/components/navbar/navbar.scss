@@ -1,0 +1,30 @@
+@use "../../scss/" as *;
+
+#navbar {
+  position: fixed;
+  width: 90vw;
+  margin-left: 4.5vw;
+  margin-right: 5vw;
+  height: 7vh;
+  border-bottom: 1px solid $main-color;
+  display: flex;
+  justify-content: space-between;
+
+  ul {
+    display: flex;
+    li {
+      margin: 0 0.5vw;
+      list-style: none;
+      display: flex;
+      align-items: center;
+      img {
+        width: 8vw;
+      }
+      a {
+        color: $black;
+        font: 300 1vw $font-family2;
+        text-decoration: none;
+      }
+    }
+  }
+}

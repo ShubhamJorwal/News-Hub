@@ -1,0 +1,24 @@
+@use "../scss/" as *;
+
+#cards {
+  width: 70vw;
+  margin: auto;
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(4, 1fr);
+}
+#heading {
+  text-align: center;
+  font: 500 1.5vw $font-family2;
+}
+.btnsss {
+    margin-top: 1vw;
+    display: flex;
+    justify-content: space-around;
+  button {
+    padding: 0.2vw 1vw;
+    font: 300 1vw $font-family2;
+    color: black;
+    cursor: crosshair;
+  }
+}

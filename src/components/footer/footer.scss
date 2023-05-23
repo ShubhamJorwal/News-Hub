@@ -1,0 +1,38 @@
+@use "../../scss/" as *;
+
+#footul {
+  position: relative;
+  bottom: 0;
+  height: 10vw;
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
+  height: 10vh;
+  align-items: center;
+  margin-top: 2vw;
+  border-top: 1px solid blue;
+  ul {
+    display: flex;
+    list-style: none;
+    li {
+      margin: 0 1vw;
+      button {
+        border: none;
+        a {
+          margin-right: 0.2vw;
+          padding: 0.3vw 0.6vw;
+          background-color: blue;
+          border-radius: 0.2vw;
+          text-decoration: none;
+          color: white;
+          font: 500 0.8vw $font-family2;
+        }
+        transition: 0.5s all;
+        &:hover {
+          transform: scale(1.1);
+        }
+      }
+    }
+  }
+}

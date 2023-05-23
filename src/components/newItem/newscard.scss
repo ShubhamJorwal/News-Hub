@@ -1,0 +1,45 @@
+@use "../../scss/" as *;
+
+#maincard {
+  width: 93%;
+  border: 1px solid black;
+  margin: 1vw;
+  img {
+    width: 100%;
+    height: 15vh;
+  }
+  .stdiv {
+    padding: 0.5vw;
+    padding-top: 0.4vw;
+    margin-top: 0.3vh;
+    min-height: 21vh;
+    h5 {
+      font: 600 1vw $font-family2;
+    }
+    p {
+      font: 400 0.8vw $font-family2;
+    }
+    a {
+      margin-top: 0.3vw;
+    }
+  }
+  #nddiv {
+    position: absolute !important;
+    button {
+      border: none;
+      a {
+        margin-right: 0.2vw;
+        padding: 0.3vw 0.6vw;
+        background-color: blue;
+        border-radius: 0.2vw;
+        text-decoration: none;
+        color: white;
+        font: 500 0.8vw $font-family2;
+      }
+      transition: 0.5s all;
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+}
